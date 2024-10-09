@@ -1,5 +1,6 @@
-  window.sketchpad._css = `
+window.sketchpad._css = `
 .sketchpad.container {
+  border-radius: 1rem 0 0 0;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -64,8 +65,8 @@
   gap: .5rem;
 }
     `;
-    
-    window.sketchpad._html = `
+
+window.sketchpad._html = `
 <div class="sketchpad container">
 		<header>
 			<input type="text" maxlength="2000" id="caption" placeholder="Name your artwork...">
